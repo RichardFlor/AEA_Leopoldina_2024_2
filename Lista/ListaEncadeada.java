@@ -24,9 +24,9 @@ public class ListaEncadeada<T>{
         No<T> atual = head;
         while(atual != null){
         sb.append(atual.getDado()).append(" -> ");
-        atual = atual.getProximo();
-         
+        atual = atual.getProximo();    
     }
+    sb.append("null");
     return sb.toString();
 
 }

@@ -9,6 +9,7 @@ public class ListaEncadeadaTeste {
         lista.adicionar(30);
         lista.adicionar(40);
         lista.adicionar(50);
+        lista.adicionar(60);
 
         System.out.println(lista);
     }
