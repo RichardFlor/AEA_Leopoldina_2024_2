@@ -5,7 +5,7 @@ public class ListaEncadeadaTeste {
         lista.adicionar(10);
         lista.adicionar(20);
         lista.adicionar(30);
-        lista.remover(10);
+        lista.remover(20);
         System.out.println(lista);
         
     }
